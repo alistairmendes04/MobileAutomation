@@ -1,4 +1,6 @@
 {
+  "unlockType":"pattern",
+  "unlockKey": "1578",
   "address": "127.0.0.1",
   "app":"src/app/gmap.apk",
   "device": "Asus",
