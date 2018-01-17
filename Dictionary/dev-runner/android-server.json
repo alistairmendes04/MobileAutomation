@@ -1,0 +1,14 @@
+{
+  "address": "127.0.0.1",
+  "app":"src/app/dic.apk",
+  "device": "Asus",
+  "appPackage":"br.com.golmobile.nypost",
+  "appWaitPackage":"br.com.golmobile.nypost",
+  "automationName":"Appium",
+  "deviceName":"Nexus",
+  "debugLogSpacing": true,
+  "fullReset": true,
+  "platformName": "Android",
+  "platformVersion":"5.0",
+  "port": "4723"
+}

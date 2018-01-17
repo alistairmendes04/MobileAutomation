@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dictionary/Dictionary.iml" filepath="$PROJECT_DIR$/Dictionary/Dictionary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoogleMap/GoogleMap.iml" filepath="$PROJECT_DIR$/GoogleMap/GoogleMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/NYP/NYP.iml" filepath="$PROJECT_DIR$/NYP/NYP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PntMobileAutomation.iml" filepath="$PROJECT_DIR$/PntMobileAutomation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UiCatalog/UiCatalog.iml" filepath="$PROJECT_DIR$/UiCatalog/UiCatalog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Team3MobileAutomation.iml" filepath="$PROJECT_DIR$/Team3MobileAutomation.iml" />
     </modules>
   </component>
 </project>

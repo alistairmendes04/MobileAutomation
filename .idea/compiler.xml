@@ -6,15 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Dictionary" />
         <module name="Generic" />
+        <module name="GoogleMap" />
         <module name="NYP" />
-        <module name="UiCatalog" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Generic" target="1.5" />
-      <module name="NYP" target="1.5" />
+      <module name="Dictionary" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="GoogleMap" target="1.8" />
+      <module name="NYP" target="1.8" />
       <module name="PntMobileAutomation" target="1.5" />
+      <module name="Team3MobileAutomation" target="1.5" />
       <module name="UiCatalog" target="1.5" />
     </bytecodeTargetLevel>
   </component>

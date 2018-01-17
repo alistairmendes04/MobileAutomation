@@ -11,7 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>NYP</module>
-        <module>UiCatalog</module>
+        <module>Dictionary</module>
+        <module>GoogleMap</module>
+        <!--  <module>UiCatalog</module>-->
     </modules>
 
     <dependencyManagement>

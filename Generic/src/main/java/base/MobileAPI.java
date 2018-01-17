@@ -183,7 +183,7 @@ public class MobileAPI {
         return StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(words), ' ');
     }
 
-    private static final List<Function<String, By>> resolvers = Arrays.asList(By::id, By::className, By::xpath);
+    private static final List< Function<String, By>> resolvers = Arrays.asList(By::id, By::className, By::xpath);
 
     public WebElement locateElement(AppiumDriver ad, String locator) {
         WebElement el = null;
@@ -235,7 +235,7 @@ public class MobileAPI {
     }
 
 
-    public void waitUntilClickable(AppiumDriver ad, String locator) {
+    public void waitUntilClickable(AppiumDriver ad, WebElement webElement) {
         WebDriverWait wait = new WebDriverWait(ad, 45);
         //wait.until(ExpectedConditions.elementToBeClickable(By.id(locator)));
     }

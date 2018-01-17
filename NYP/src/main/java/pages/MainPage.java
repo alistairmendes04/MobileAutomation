@@ -15,6 +15,10 @@ import java.util.List;
  */
 public class MainPage extends MobileAPI {
 
+    @FindBy (id = "br.com.golmobile.nypost:id/continue_customize")
+    public  WebElement welcomeContinue1;
+    @FindBy (id = "br.com.golmobile.nypost:id/continue_customize" )
+    public  WebElement continueCustomize;
     @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.widget.ImageButton[1]")
     public WebElement btnBurger;
     @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.TextView[1]")
@@ -46,7 +50,12 @@ public class MainPage extends MobileAPI {
             }
         }
     }
-
+    public void clickWelcomContinue1(){
+        welcomeContinue1.click();
+    }
+    public void clickContinueCustomize(){
+        continueCustomize.click();
+    }
     public void getMenu(){
         btnBurger.click();
     }
@@ -95,7 +104,7 @@ public class MainPage extends MobileAPI {
     public void getEntertainment(){
         getMenu();
         scrollAndClickByName(mainMenuArr[8]);
-        Assert.assertTrue(txtPageHeading.getText().contains("ENTERTAINMENT"));
+        //Assert.assertTrue(txtPageHeading.getText().contains("ENTERTAINMENT"));
     }
     public void getFashion(){
         getMenu();
@@ -105,7 +114,7 @@ public class MainPage extends MobileAPI {
     public void getLiving(){
         getMenu();
         scrollAndClickByName(mainMenuArr[10]);
-        Assert.assertTrue(txtPageHeading.getText().contains("LIVING"));
+        //Assert.assertTrue(txtPageHeading.getText().contains("LIVING"));
     }
     public void getMedia(){
         getMenu();
@@ -143,7 +152,11 @@ public class MainPage extends MobileAPI {
     }
 
     public void goToArticles(){
-        getAbout();
+        sleep(35);
+        clickWelcomContinue1();
+        sleep(30);
+        clickContinueCustomize();
+        /*getAbout();
         getBusiness();
         getEntertainment();
         getFashion();
@@ -151,6 +164,6 @@ public class MainPage extends MobileAPI {
         getNews();
         getOpinion();
         getPageSix();
-        getMedia();
+        getMedia();*/
     }
 }

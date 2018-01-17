@@ -1,0 +1,13 @@
+{
+  "address": "127.0.0.1",
+  "app":"src/app/dic.apk",
+  "appPackage":"com.tfd.mobile.TfdSearch",
+  "appWaitPackage":"com.tfd.activity.MainActivity",
+  "automationName":"Appium",
+  "deviceName":"Nexus",
+  "debugLogSpacing": true,
+  "fullReset": true,
+  "platformName": "Android",
+  "platformVersion":"5.0",
+  "port": "4723"
+}

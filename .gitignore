@@ -10,3 +10,4 @@ UiCatalog/src/main/resources/
 UiCatalog/target/generated-sources/
 UiCatalog/target/generated-test-sources/
 .idea
+*.iml

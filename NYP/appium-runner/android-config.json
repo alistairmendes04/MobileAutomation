@@ -4,10 +4,10 @@
   "appPackage":"br.com.golmobile.nypost",
   "appWaitPackage":"br.com.golmobile.nypost",
   "automationName":"Appium",
-  "deviceName":"One Plus Two",
+  "deviceName":"Asus",
   "debugLogSpacing": true,
   "fullReset": true,
   "platformName": "Android",
-  "platformVersion":"5.1",
+  "platformVersion":"5.0",
   "port": "4723"
 }

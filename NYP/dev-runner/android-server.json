@@ -1,14 +1,14 @@
 {
   "address": "127.0.0.1",
   "app":"src/app/nyp.apk",
-  "device": "Nexus6",
+  "device": "Asus",
   "appPackage":"br.com.golmobile.nypost",
   "appWaitPackage":"br.com.golmobile.nypost",
   "automationName":"Appium",
-  "deviceName":"Nexus6",
+  "deviceName":"Asus",
   "debugLogSpacing": true,
   "fullReset": true,
   "platformName": "Android",
-  "platformVersion":"6.0",
+  "platformVersion":"5.0",
   "port": "4723"
 }
