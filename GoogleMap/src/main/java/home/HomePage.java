@@ -3,11 +3,18 @@ package home;
 import base.MobileAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Keyboard;
 import org.openqa.selenium.support.FindBy;
+
+import java.awt.event.KeyEvent;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.openqa.selenium.Keys.ENTER;
 
 public class HomePage extends MobileAPI {
     @FindBy(className = "android.widget.ImageView")
-    public WebElement burgerBtn;
+    public static List<WebElement> burgerBtn = new ArrayList<>();
     @FindBy(linkText = "Set home address")
     public WebElement setHomeAddress;
     @FindBy(id = "android:id/button1")
@@ -18,13 +25,15 @@ public class HomePage extends MobileAPI {
     public WebElement okButton;
     @FindBy(className = "android.widget.TextView")
     public WebElement setDestination;
+    @FindBy(className = "android.widget.TextView")
+    public List<WebElement> searchBoxClassName = new ArrayList<>();
 
     String menuArray[] = {"Your places", "Your timeline", "Your contributions", "Location sharing",
             "Start driving", "Explore", "Tips and tricks", "Add a missing place", "Settings",
             "Help", "Send feedback", "Terms of Service"};
 
     public void getMenu() {
-        burgerBtn.click();
+        burgerBtn.get(0).click();
     }
 
     public void getYourPlaces() {
@@ -51,7 +60,8 @@ public class HomePage extends MobileAPI {
         getMenu();
         scrollAndClickByName(menuArray[4]);
     }
-    public void getExplore(){
+
+    public void getExplore() {
         getMenu();
         scrollAndClickByName(menuArray[5]);
     }
@@ -80,27 +90,58 @@ public class HomePage extends MobileAPI {
         getMenu();
         scrollAndClickByName(menuArray[10]);
     }
-    public void getTermsOfServices(){
+
+    public void getTermsOfServices() {
         getMenu();
         scrollAndClickByName(menuArray[11]);
     }
-    public void setHomeAddressInYourPlaces(){
+
+    public void setHomeAddressInYourPlaces() {
         /*getMenu();
         getYourPlaces();*/
-        burgerBtn.click();
+        burgerBtn.get(0).click();
         getYourPlaces();
         setHomeAddress.click();
     }
-    public void startDriving(){
+
+    public void mapTypeSatellite() {
+        //clcik Map Type
+        burgerBtn.get(5).click();
+        burgerBtn.get(1).click();
+    }
+     public void mapTypeTerrain(){
+        burgerBtn.get(5).click();
+        //clcik Terrin
+        burgerBtn.get(2).click();
+     }
+    public void startDriving() {
         getMenu();
-        getExplore();
+        searchBoxClassName.get(8).click();
         exploreGotIt.click();
         okButton.click();
         sleep(4);
         setDestination.sendKeys("PeopleNTech, 32-72 Steinway St B02, Astoria,NY 11103", Keys.ENTER);
-
-
     }
 
+    public void search() {
+        searchBoxClassName.get(0).sendKeys(" Dhaka,Bangladesh", Keys.ENTER);
+        sleepFor(6);
+     /* ad.getKeyboard().pressKey(ENTER);
+      ad.getKeyboard().releaseKey(ENTER);
+      sleepFor(20);*/
+    }
 
+    public void clickGoButton() {
+        burgerBtn.get(4).click();
+        cancelButton.click();
+        burgerBtn.get(3).click();
+    }
 }
+/*
+driver.findElementByXPath("//input[@id=\"lst-ib\"]").click();
+        driver.getKeyboard().sendKeys("Perfecto Mobile communit*");
+//KeyEvent 67= Backspace key. Deletes characters before the insertion point
+        driver.pressKeyCode(67);
+        driver.getKeyboard().sendKeys("y");
+//KeyEvent 66= Enter key
+        driver.pressKeyCode(66);*/
