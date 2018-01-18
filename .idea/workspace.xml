@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ad9950-98c1-4909-9ef9-0fa081ffb0ab" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/Extent-Report/Extent Report.html" afterPath="$PROJECT_DIR$/GoogleMap/Extent-Report/Extent Report.html" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/screenshots/BaseLine/testStartDrivingTo.png" afterPath="$PROJECT_DIR$/GoogleMap/screenshots/BaseLine/testStartDrivingTo.png" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java" afterPath="$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java" afterPath="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" afterPath="$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/target/classes/home/HomePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/target/test-classes/GoogleMapAppTestRunner.xml" afterPath="$PROJECT_DIR$/GoogleMap/target/test-classes/GoogleMapAppTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/target/test-classes/testCases/testHomePage.class" afterPath="$PROJECT_DIR$/GoogleMap/target/test-classes/testCases/testHomePage.class" />
+      <change beforePath="$PROJECT_DIR$/GoogleMap/pom.xml" afterPath="$PROJECT_DIR$/GoogleMap/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,8 +45,8 @@
       <file leaf-file-name="GoogleMapAppTestRunner.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="252">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -66,13 +55,33 @@
       <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="113" column="22" lean-forward="false" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+            <state relative-caret-position="-144">
+              <caret line="119" column="29" lean-forward="false" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1285#1286#0" expanded="true" />
                 <element signature="e#1325#1326#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoogleMap/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,14 +98,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testHomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testHomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+            <state relative-caret-position="525">
+              <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1898#1899#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#1934#1935#0" expanded="true" />
+                <element signature="e#1970#1971#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,7 +117,7 @@
       <file leaf-file-name="testSelectRoutePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
+            <state relative-caret-position="-124">
               <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -185,7 +197,6 @@
         <option value="$PROJECT_DIR$/NYP/src/test/java/home/TestFeatures.java" />
         <option value="$PROJECT_DIR$/Dictionary/src/test/java/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Dictionary/src/test/resources/DictionaryTestRunner.xml" />
-        <option value="$PROJECT_DIR$/GoogleMap/pom.xml" />
         <option value="$PROJECT_DIR$/Dictionary/appium-runner/android-config.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/GoogleMap/appium-runner/android-config.json" />
@@ -198,6 +209,7 @@
         <option value="$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java" />
         <option value="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java" />
+        <option value="$PROJECT_DIR$/GoogleMap/pom.xml" />
       </list>
     </option>
   </component>
@@ -217,6 +229,10 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="com.pnt" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -396,102 +412,20 @@
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
               <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
-              <item name="AlertsPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
-              <item name="ButtonsPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="UiCatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pagefactory" type="462c0819:PsiDirectoryNode" />
-              <item name="ControlsPage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -510,7 +444,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumFrameWork" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Team_3_Framework_Project" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1092,9 +1026,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Rabeka_IdeaProjects_MobileAutomationMarch2017_GoogleMap_src_test_resources_GoogleMapAppTestRunner_xml - 2018.01.18 at 11h 23m 08s.xml">
-      <configuration name="C:/Users/Rabeka/IdeaProjects/MobileAutomationMarch2017/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Rabeka_IdeaProjects_MobileAutomationMarch2017_GoogleMap_src_test_resources_GoogleMapAppTestRunner_xml - 2018.01.18 at 11h 28m 19s.xml">
       <configuration name="C:/Users/Rabeka/IdeaProjects/MobileAutomationMarch2017/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -1122,6 +1053,9 @@
     <history-entry file="C__Users_Rabeka_IdeaProjects_MobileAutomationMarch2017_GoogleMap_src_test_resources_GoogleMapAppTestRunner_xml - 2018.01.18 at 12h 34m 18s.xml">
       <configuration name="C:/Users/Rabeka/IdeaProjects/MobileAutomationMarch2017/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Rabeka_IdeaProjects_MobileAutomationMarch2017_GoogleMap_src_test_resources_GoogleMapAppTestRunner_xml - 2018.01.18 at 13h 31m 32s.xml">
+      <configuration name="C:/Users/Rabeka/IdeaProjects/MobileAutomationMarch2017/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="37920000" />
@@ -1136,14 +1070,14 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17363344" sideWeight="0.17019667" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2526475" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13344051" sideWeight="0.82980335" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34083602" sideWeight="0.82980335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2363344" sideWeight="0.79727685" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1484,14 +1418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary/src/main/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1519,14 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1571,24 +1489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1601,8 +1501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="113" column="22" lean-forward="false" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+        <state relative-caret-position="-144">
+          <caret line="119" column="29" lean-forward="false" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1285#1286#0" expanded="true" />
@@ -1613,12 +1513,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="51" column="38" lean-forward="true" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        <state relative-caret-position="525">
+          <caret line="25" column="10" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#1970#1971#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
