@@ -41,5 +41,9 @@ public class testHomePage extends HomePage {
     public void testTermsOfService(){objHomePage.getTermsOfServices();}
     @Test
     public void testSetHomeAddressInYourPlace(){objHomePage.setHomeAddressInYourPlaces();}
+    @Test
+    public void testStartDrivingTo(){
+        objHomePage.startDriving();
+    }
 
 }

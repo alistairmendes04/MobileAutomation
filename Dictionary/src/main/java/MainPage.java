@@ -10,7 +10,7 @@ public class MainPage extends MobileAPI {
     @FindBy(id = "android:id/search_button")
     public WebElement searchButton;
     //@FindBy(id = "//android.webkit.WebView[@content-desc=\"The Free Dictionary\"]/android.view.View[1]")
-   // @AndroidFindBy(accessibility ="Log in")
+    //@AndroidFindBy(accessibility ="Log in")
     @FindBy (xpath = "//android.webkit.WebView[@content-desc=\"The Free Dictionary\"]/android.view.View[8]/android.view.View\n")
     public WebElement logIn;
     @FindBy(id = "com.tfd.mobile.TfdSearch:id/emailEdit")
