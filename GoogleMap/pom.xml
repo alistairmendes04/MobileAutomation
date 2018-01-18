@@ -33,7 +33,7 @@
                 <version>2.20.1</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>target/test-classes/GoogleMapTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/GoogleMapAppTestRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

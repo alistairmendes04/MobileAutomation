@@ -48,9 +48,7 @@ public class testHomePage extends HomePage {
     @Test
     public void testMapTypeTerrain(){objHomePage.mapTypeTerrain();}
     @Test
-    public void testStartDrivingTo() {
-        objHomePage.startDriving();
-    }
+    public void testStartDrivingTo() {objHomePage.startDriving();}
     @Test
     public void testSearch() {
         objHomePage.search();
