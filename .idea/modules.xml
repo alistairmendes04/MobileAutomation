@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AccuWeather/AccuWeather.iml" filepath="$PROJECT_DIR$/AccuWeather/AccuWeather.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoogleMap/GoogleMap.iml" filepath="$PROJECT_DIR$/GoogleMap/GoogleMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Team3MobileAutomation.iml" filepath="$PROJECT_DIR$/Team3MobileAutomation.iml" />

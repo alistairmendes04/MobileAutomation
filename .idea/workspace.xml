@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83ad9950-98c1-4909-9ef9-0fa081ffb0ab" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/appium-runner/android-config.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/dev-runner/android-server.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/dev-runner/ios-server.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/src/app/alibaba.apk" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/src/main/java/home/HomePage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/src/test/java/testCases/TestHomePage.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/AccuWeather/src/test/resources/AliBabaTestRunner.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/AccuWeather/pom.xml" afterPath="$PROJECT_DIR$/AccuWeather/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/MobileAPI.class" afterPath="$PROJECT_DIR$/Generic/target/classes/base/MobileAPI.class" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/Extent-Report/Extent Report.html" afterPath="$PROJECT_DIR$/GoogleMap/Extent-Report/Extent Report.html" />
-      <change beforePath="$PROJECT_DIR$/GoogleMap/target/GoogleMap-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/GoogleMap/target/GoogleMap-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +29,7 @@
       <file leaf-file-name="MobileAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="445">
               <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
               <folding>
                 <element signature="method#getTime#0;class#MobileAPI#0" expanded="false" />
@@ -55,33 +42,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectRoutePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java">
+      <file leaf-file-name="GoogleMapAppTestRunner.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AccuWeather/src/main/java/home/HomePage.java">
+      <file leaf-file-name="testHomePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="504">
+              <caret line="100" column="35" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1260#1261#0" expanded="true" />
+                <element signature="e#1312#1313#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1831#1832#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1979#1980#0" expanded="true" />
+                <element signature="e#2023#2024#0" expanded="true" />
+                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#2115#2116#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccuWeather/pom.xml">
+      <file leaf-file-name="testSelectRoutePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="273">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -106,26 +136,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GoogleMap/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android-server.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccuWeather/dev-runner/android-server.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -204,7 +214,6 @@
         <option value="$PROJECT_DIR$/Dictionary/src/test/java/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Dictionary/src/test/resources/DictionaryTestRunner.xml" />
         <option value="$PROJECT_DIR$/Dictionary/appium-runner/android-config.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/GoogleMap/appium-runner/android-config.json" />
         <option value="$PROJECT_DIR$/GoogleMap/dev-runner/android-server.json" />
         <option value="$PROJECT_DIR$/Dictionary/src/main/java/MainPage.java" />
@@ -213,8 +222,6 @@
         <option value="$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java" />
         <option value="$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/GoogleMap/src/main/java/home/HomePage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java" />
         <option value="$PROJECT_DIR$/GoogleMap/pom.xml" />
         <option value="$PROJECT_DIR$/AccuWeather/src/test/resources/AccuWeatherTestRunner.xml" />
         <option value="$PROJECT_DIR$/AccuWeather/dev-runner/android-server.json" />
@@ -223,6 +230,9 @@
         <option value="$PROJECT_DIR$/AccuWeather/src/test/java/testCases/TestHomePage.java" />
         <option value="$PROJECT_DIR$/AccuWeather/src/main/java/home/HomePage.java" />
         <option value="$PROJECT_DIR$/AccuWeather/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java" />
       </list>
     </option>
   </component>
@@ -314,56 +324,44 @@
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="Dictionary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -371,7 +369,7 @@
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -380,52 +378,10 @@
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="AccuWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleMap" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Team_3_Mobile_Automation_Framework_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="NYP" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Team_3_Mobile_Automation_Framework_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -1077,7 +1033,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1089,7 +1044,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09163987" sideWeight="0.82980335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4903537" sideWeight="0.79727685" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4903537" sideWeight="0.79727685" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1318,13 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/Collections">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -1381,32 +1329,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-996">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dictionary/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="31" column="19" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,13 +1377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="50" column="65" lean-forward="false" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccuWeather/src/test/resources/AliBabaTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1469,21 +1389,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
           <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary/src/main/java/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1285#1286#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1503,20 +1413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding>
-            <element signature="method#getTime#0;class#MobileAPI#0" expanded="false" />
-            <element signature="method#enterValueOnElement#0;class#MobileAPI#0" expanded="false" />
-            <element signature="method#waitUntilPresence#0;class#MobileAPI#0" expanded="false" />
-            <element signature="method#validateClickable#0;class#MobileAPI#0" expanded="false" />
-            <element signature="method#clickOnElementWithText#0;class#MobileAPI#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccuWeather/src/test/java/testCases/TestHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1529,13 +1425,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary/src/main/java/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AccuWeather/src/main/java/home/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/main/java/route/SelectRoutePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/MobileAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="433" column="0" lean-forward="false" selection-start-line="433" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
+          <folding>
+            <element signature="method#getTime#0;class#MobileAPI#0" expanded="false" />
+            <element signature="method#enterValueOnElement#0;class#MobileAPI#0" expanded="false" />
+            <element signature="method#waitUntilPresence#0;class#MobileAPI#0" expanded="false" />
+            <element signature="method#validateClickable#0;class#MobileAPI#0" expanded="false" />
+            <element signature="method#clickOnElementWithText#0;class#MobileAPI#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="100" column="35" lean-forward="false" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/java/testCases/testSelectRoutePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GoogleMap/src/test/resources/GoogleMapAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
