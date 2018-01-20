@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/GoogleMap/GoogleMap.iml" filepath="$PROJECT_DIR$/GoogleMap/GoogleMap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HomeDepot/HomeDepot.iml" filepath="$PROJECT_DIR$/HomeDepot/HomeDepot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeattleTimes/SeattleTimes.iml" filepath="$PROJECT_DIR$/SeattleTimes/SeattleTimes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Team3MobileAutomation.iml" filepath="$PROJECT_DIR$/Team3MobileAutomation.iml" />
     </modules>
   </component>

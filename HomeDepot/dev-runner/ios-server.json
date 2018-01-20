@@ -1,0 +1,11 @@
+{
+  "address": "127.0.0.1",
+  "app":"src/app/The Home Depot_v5.7_apkpure.com.apk",
+  "deviceName":"iPhone 6",
+  "debugLogSpacing": true,
+  "noReset": true,
+  "fullReset": false,
+  "platformName": "iOS",
+  "platformVersion":"10.0",
+  "port": "4723"
+}

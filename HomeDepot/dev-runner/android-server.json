@@ -1,0 +1,16 @@
+{
+  "address": "127.0.0.1",
+  "app":"src/app/The Home Depot_v5.7_apkpure.com.apk",
+  "device": "Pixel XL",
+  "appPackage":"com.thehomedepot",
+  "appWaitPackage":"com.thehomedeopt",
+  "automationName":"Appium",
+  "deviceName":"Pixel XL",
+  "debugLogSpacing": true,
+  "fullReset": true,
+  "platformName": "Android",
+  "platformVersion":"7.1",
+  "port": "4723"/*,
+  "unlockType": "pattern",
+  "unlockKey": ""*/
+}

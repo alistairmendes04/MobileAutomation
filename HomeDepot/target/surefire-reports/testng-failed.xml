@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Android test suite on Android Phone]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="appType" value="Phone"/>
+  <parameter name="appName" value="The Home Depot_v5.7_apkpure.com.apk"/>
+  <parameter name="moduleName" value="HomeDepot"/>
+  <parameter name="deviceName" value="Pixel XL"/>
+  <parameter name="version" value="5.0"/>
+  <test name="Go to Home page">
+    <classes>
+      <class name="testcases.TestMainPage"/>
+    </classes>
+  </test> <!-- Go to Home page -->
+  <test name="Go to Home page(failed)">
+    <classes>
+      <class name="testcases.TestMainPage">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="testInitialAlert"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.TestMainPage -->
+    </classes>
+  </test> <!-- Go to Home page(failed) -->
+</suite> <!-- Failed suite [Android test suite on Android Phone] -->

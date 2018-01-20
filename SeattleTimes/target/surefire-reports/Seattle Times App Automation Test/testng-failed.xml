@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Seattle Times App Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="deviceType" value="Emulator"/>
+  <parameter name="OS" value="Android"/>
+  <parameter name="appType" value="Phone"/>
+  <parameter name="appName" value="The Seattle Times.apk"/>
+  <parameter name="moduleName" value="SeattleTimes"/>
+  <parameter name="deviceName" value="Pixel XL"/>
+  <parameter name="version" value="5.0"/>
+  <test name="GoToHomePage">
+    <classes>
+      <class name="TestHomePage"/>
+    </classes>
+  </test> <!-- GoToHomePage -->
+  <test name="GoToHomePage(failed)">
+    <classes>
+      <class name="TestHomePage">
+        <methods>
+          <include name="test5scrollToBusiness"/>
+          <include name="test4scrollToLocal"/>
+          <include name="extentSetup"/>
+          <include name="test3scrollToMyReadingList"/>
+          <include name="test6scrollToSports"/>
+          <include name="test1BurgerButton"/>
+          <include name="test7scrollPNWMagazine"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestHomePage -->
+    </classes>
+  </test> <!-- GoToHomePage(failed) -->
+</suite> <!-- Failed suite [Seattle Times App Automation Test] -->
