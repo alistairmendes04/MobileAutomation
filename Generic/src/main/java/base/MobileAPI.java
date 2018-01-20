@@ -14,6 +14,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
@@ -423,4 +424,10 @@ public class MobileAPI {
         MobileElement we = (MobileElement) driver.findElementByXPath(text);
         driver.scrollTo(we.getText());
     }
+    /*public static MobileElement w(WebElement element) {
+        return new MobileElement((RemoteWebElement) element, ad);
+    }
+    public static MobileElement element(WebElement webElement) {
+        return w(webElement);
+    }*/
 }

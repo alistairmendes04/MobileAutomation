@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AccuWeather Test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Asus"/>
+    <parameter name="version" value="5.0"/>
+    <parameter name="moduleName" value="AccuWeather"/>
+    <parameter name="appName" value="AccuWeather.apk"/>
+
+    <test name="Home page" preserve-order="true">
+        <classes>
+            <class name="testCases.TestHomePage"/>
+        </classes>
+    </test>
+</suite>

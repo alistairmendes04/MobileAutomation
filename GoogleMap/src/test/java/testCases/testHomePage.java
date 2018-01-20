@@ -15,40 +15,92 @@ public class testHomePage extends HomePage {
         objHomePage = PageFactory.initElements(ad, HomePage.class);
         objSelectRoutePage = PageFactory.initElements(ad, SelectRoutePage.class);
     }
-     @Test
-     public void testMenu() {objHomePage.getMenu();}
-     @Test
-     public void testYourPlaces() {objHomePage.getYourPlaces();}
-     @Test
-     public void testYourTimeline(){ objHomePage.getYourTimeline();    }
-     @Test
-     public void testYourCOntribution(){objHomePage.getYourContributions();}
-     @Test
-     public void testLocationSharing(){objHomePage.getLocationSharing();}
-     @Test
-     public void testStartDriving(){objHomePage.getStartDriving();}
-     @Test
-     public void testExplore(){objHomePage.getExplore();}
-     @Test
-     public void testTipsAndTricks(){objHomePage.getTipsAndTricks();}
-     @Test
-     public void testAddAMissingPlace(){objHomePage.getAddAMissingPlace();}
-     @Test
-     public void testSettings(){objHomePage.getSettings();}
-     @Test
-     public void testHelp(){objHomePage.getHelp();}
-     @Test
-     public void testSendFeedBack(){objHomePage.getSendFeedback();}
-     @Test
-     public void testTermsOfService(){objHomePage.getTermsOfServices();}
-     @Test
-     public void testSetHomeAddressInYourPlace(){objHomePage.setHomeAddressInYourPlaces();}
+
     @Test
-    public void testMapTypeSatellite(){objHomePage.mapTypeSatellite();}
+    public void testMenu() {
+        objHomePage.getMenu();
+    }
+
     @Test
-    public void testMapTypeTerrain(){objHomePage.mapTypeTerrain();}
+    public void testYourPlaces() {
+        objHomePage.getYourPlaces();
+    }
+
     @Test
-    public void testStartDrivingTo() {objHomePage.startDriving();}
+    public void testYourTimeline() {
+        objHomePage.getYourTimeline();
+    }
+
+    @Test
+    public void testYourCOntribution() {
+        objHomePage.getYourContributions();
+    }
+
+    @Test
+    public void testLocationSharing() {
+        objHomePage.getLocationSharing();
+    }
+
+    @Test
+    public void testStartDriving() {
+        objHomePage.getStartDriving();
+    }
+
+    @Test
+    public void testExplore() {
+        objHomePage.getExplore();
+    }
+
+    @Test
+    public void testTipsAndTricks() {
+        objHomePage.getTipsAndTricks();
+    }
+
+    @Test
+    public void testAddAMissingPlace() {
+        objHomePage.getAddAMissingPlace();
+    }
+
+    @Test
+    public void testSettings() {
+        objHomePage.getSettings();
+    }
+
+    @Test
+    public void testHelp() {
+        objHomePage.getHelp();
+    }
+
+    @Test
+    public void testSendFeedBack() {
+        objHomePage.getSendFeedback();
+    }
+
+    @Test
+    public void testTermsOfService() {
+        objHomePage.getTermsOfServices();
+    }
+
+    @Test
+    public void testSetHomeAddressInYourPlace() {
+        objHomePage.setHomeAddressInYourPlaces();
+    }
+
+    @Test
+    public void testMapTypeSatellite() {
+        objHomePage.mapTypeSatellite();
+    }
+
+    @Test
+    public void testMapTypeTerrain() {
+        objHomePage.mapTypeTerrain();
+    }
+
+    @Test
+    public void testStartDrivingTo() {
+        objHomePage.startDriving();
+    }
+
     @Test
     public void testSearch() {
         objHomePage.search();

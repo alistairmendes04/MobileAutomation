@@ -1,0 +1,15 @@
+{
+  "address": "127.0.0.1",
+  "app":"src/app/AccuWeather.apk",
+  "device": "Asus",
+  "appPackage":"com.accuweather.android",
+  "appWaitPackage":"com.accuweather.android",
+  "automationName":"Appium",
+  "deviceName":"Asus",
+  "debugLogSpacing": true,
+  "fullReset": true,
+  "platformName": "Android",
+  "platformVersion":"5.0",
+  "port": "4723"
+}
+//com.accuweather.android/com.accuweather.app.MainActivity

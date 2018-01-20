@@ -13,6 +13,7 @@
        <!-- <module>NYP</module>-->
       <!--  <module>Dictionary</module>-->
         <module>GoogleMap</module>
+       <!-- <module>AccuWeather</module>-->
         <!--  <module>UiCatalog</module>-->
     </modules>
 
