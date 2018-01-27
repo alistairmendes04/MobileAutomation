@@ -1,0 +1,16 @@
+{
+  "address": "127.0.0.1",
+  "app":"src\app\BBC News.apk",
+  "device": "Pixel XL",
+  "appPackage":"bbc.mobile.news.ww",
+  "appWaitPackage":"bbc.mobile.news.ww",
+  "automationName":"Appium",
+  "deviceName":"Pixel XL",
+  "debugLogSpacing": true,
+  "fullReset": true,
+  "platformName": "Android",
+  "platformVersion":"5.1",
+  "port": "4723"/*,
+  "unlockType": "pattern",
+  "unlockKey": ""*/
+}

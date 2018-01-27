@@ -17,6 +17,7 @@
         <!--  <module>UiCatalog</module>-->
         <module>HomeDepot</module>
         <module>SeattleTimes</module>
+        <module>NYTimes</module>
     </modules>
 
     <dependencyManagement>

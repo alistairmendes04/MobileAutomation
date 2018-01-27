@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android test suite on Android Phone">
+
+    <parameter name="OS" value="Android"/>
+    <parameter name="appType" value="Phone"/>
+    <parameter name="deviceType" value="Emulator"/>
+    <parameter name="deviceName" value="Nexus"/>
+    <parameter name="version" value="5.1"/>
+    <parameter name="moduleName" value="NYTimes"/>
+    <parameter name="appName" value="BBC News.apk"/>
+
+    <test name="Test Home" preserve-order="true">
+        <classes>
+            <class name="testcases.TestHome"/>
+        </classes>
+    </test>
+</suite>

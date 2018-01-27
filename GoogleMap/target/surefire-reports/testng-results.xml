@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="19" passed="0" failed="0" skipped="19">
+<testng-results skipped="19" failed="0" total="19" passed="0">
   <reporter-output>
     <line>
-      <![CDATA[Extent Report directory: C:\Users\Rabeka\IdeaProjects\Team_3_Mobile_Automation_Framework_Project\GoogleMap\target\surefire-reports\html]]>
+      <![CDATA[Extent Report directory: C:\Users\Ali\IdeaProjects\Team_3_Mobile_Automation_Framework_Project\GoogleMap\target\surefire-reports\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2018-01-20T06:15:50Z" name="Test suite on Android Phone" finished-at="2018-01-20T06:15:56Z" duration-ms="5320">
+  <suite name="Test suite on Android Phone" duration-ms="1183" started-at="2018-01-25T00:29:33Z" finished-at="2018-01-25T00:29:34Z">
     <groups>
     </groups>
-    <test started-at="2018-01-20T06:15:50Z" name="Home page" finished-at="2018-01-20T06:15:56Z" duration-ms="5320">
+    <test name="Home page" duration-ms="1183" started-at="2018-01-25T00:29:33Z" finished-at="2018-01-25T00:29:34Z">
       <class name="testCases.testHomePage">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:47Z" name="extentSetup" finished-at="2018-01-20T01:15:50Z" duration-ms="3048" status="PASS">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="extentSetup" is-config="true" duration-ms="332" started-at="2018-01-24T19:29:32Z" finished-at="2018-01-24T19:29:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5398edd0]]>
+                <![CDATA[org.testng.TestRunner@4d0d9fe7]]>
               </value>
             </param>
           </params>
           <reporter-output>
             <line>
-              <![CDATA[Extent Report directory: C:\Users\Rabeka\IdeaProjects\Team_3_Mobile_Automation_Framework_Project\GoogleMap\target\surefire-reports\html]]>
+              <![CDATA[Extent Report directory: C:\Users\Ali\IdeaProjects\Team_3_Mobile_Automation_Framework_Project\GoogleMap\target\surefire-reports\html]]>
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:51Z" name="setUp" finished-at="2018-01-20T01:15:51Z" duration-ms="0" status="FAIL">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:33Z" finished-at="2018-01-24T19:29:33Z">
           <params>
             <param index="0">
               <value>
@@ -62,19 +62,27 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 462 milliseconds
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
-System info: host: 'Jahid', ip: '192.168.91.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: AndroidDriver]]>
+System info: host: 'Alistair', ip: '192.168.74.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find adb Please set the ANDROID_HOME environment variable with the Android SDK root directory path. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 462 milliseconds
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
-System info: host: 'Jahid', ip: '192.168.91.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
-Driver info: driver.version: AndroidDriver
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+System info: host: 'Alistair', ip: '192.168.74.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
 	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:240)
 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:126)
@@ -83,10 +91,10 @@ Driver info: driver.version: AndroidDriver
 	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
 	at base.MobileAPI.setUpAndroidEnv(MobileAPI.java:172)
 	at base.MobileAPI.setUp(MobileAPI.java:141)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
 	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
@@ -113,418 +121,391 @@ Driver info: driver.version: AndroidDriver
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
-	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
-	... 38 more
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.base/java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.base/java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
-	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
-	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
-	at java.base/java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
-	at java.base/java.net.Socket.connect(Socket.java:591)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
-	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
-	... 50 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testAddAMissingPlace()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testAddAMissingPlace" finished-at="2018-01-20T01:15:56Z" duration-ms="2" status="SKIP">
+        <test-method status="SKIP" signature="testAddAMissingPlace()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testAddAMissingPlace" duration-ms="1" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddAMissingPlace -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method signature="testExplore()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testExplore" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testExplore()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testExplore" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExplore -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHelp()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testHelp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testHelp()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testHelp" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHelp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testLocationSharing()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testLocationSharing" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testLocationSharing()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testLocationSharing" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLocationSharing -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testMapTypeSatellite()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testMapTypeSatellite" finished-at="2018-01-20T01:15:56Z" duration-ms="1" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testMapTypeSatellite()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testMapTypeSatellite" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMapTypeSatellite -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testMapTypeTerrain()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testMapTypeTerrain" finished-at="2018-01-20T01:15:56Z" duration-ms="1" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="2" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testMapTypeTerrain()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testMapTypeTerrain" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMapTypeTerrain -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method signature="testMenu()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testMenu" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testMenu()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testMenu" duration-ms="1" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMenu -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method signature="testSearch()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testSearch" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testSearch()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testSearch" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSendFeedBack()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testSendFeedBack" finished-at="2018-01-20T01:15:56Z" duration-ms="1" status="SKIP">
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testSendFeedBack()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testSendFeedBack" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSendFeedBack -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testSetHomeAddressInYourPlace()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testSetHomeAddressInYourPlace" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testSetHomeAddressInYourPlace()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testSetHomeAddressInYourPlace" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetHomeAddressInYourPlace -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testSettings()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testSettings" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testSettings()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testSettings" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSettings -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="testStartDriving()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testStartDriving" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testStartDriving()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testStartDriving" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartDriving -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testStartDrivingTo()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testStartDrivingTo" finished-at="2018-01-20T01:15:56Z" duration-ms="1" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testStartDrivingTo()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testStartDrivingTo" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStartDrivingTo -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testTermsOfService()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testTermsOfService" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testTermsOfService()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testTermsOfService" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTermsOfService -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testTipsAndTricks()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testTipsAndTricks" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="testTipsAndTricks()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testTipsAndTricks" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTipsAndTricks -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="33" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testYourCOntribution()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testYourCOntribution" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testYourCOntribution()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testYourCOntribution" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testYourCOntribution -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testYourPlaces()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testYourPlaces" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="testYourPlaces()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testYourPlaces" duration-ms="1" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testYourPlaces -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method signature="testYourTimeline()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="testYourTimeline" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testYourTimeline -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:testCases.testHomePage@a1cdc6d]" started-at="2018-01-20T01:15:56Z" name="generateReport" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfObjects -->
+        <test-method status="SKIP" signature="testYourTimeline()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="testYourTimeline" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYourTimeline -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:testCases.testHomePage@3c0f93f1]" name="generateReport" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
       </class> <!-- testCases.testHomePage -->
       <class name="testCases.testSelectRoutePage">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testSelectRoutePage@175b9425]" started-at="2018-01-20T01:15:56Z" name="setUp" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.testSelectRoutePage@31dc339b]" name="setUp" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testSelectRoutePage@175b9425]" started-at="2018-01-20T01:15:56Z" name="startExtent" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startExtent -->
-        <test-method signature="testSelectRoute()[pri:0, instance:testCases.testSelectRoutePage@175b9425]" started-at="2018-01-20T01:15:56Z" name="testSelectRoute" finished-at="2018-01-20T01:15:56Z" duration-ms="5" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSelectRoute -->
-        <test-method is-config="true" signature="initializationOfObjects()[pri:0, instance:testCases.testSelectRoutePage@175b9425]" started-at="2018-01-20T01:15:56Z" name="initializationOfObjects" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="initializationOfObjects()[pri:0, instance:testCases.testSelectRoutePage@31dc339b]" name="initializationOfObjects" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfObjects -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testSelectRoutePage@175b9425]" started-at="2018-01-20T01:15:56Z" name="afterEachTestMethod" finished-at="2018-01-20T01:15:56Z" duration-ms="0" status="SKIP">
+        <test-method status="SKIP" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testCases.testSelectRoutePage@31dc339b]" name="startExtent" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="SKIP" signature="testSelectRoute()[pri:0, instance:testCases.testSelectRoutePage@31dc339b]" name="testSelectRoute" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectRoute -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.testSelectRoutePage@31dc339b]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-01-24T19:29:34Z" finished-at="2018-01-24T19:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->

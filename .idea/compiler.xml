@@ -9,6 +9,7 @@
         <module name="Generic" />
         <module name="GoogleMap" />
         <module name="HomeDepot" />
+        <module name="NYTimes" />
         <module name="SeattleTimes" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="GoogleMap" target="1.8" />
       <module name="HomeDepot" target="1.8" />
       <module name="NYP" target="1.8" />
+      <module name="NYTimes" target="1.8" />
       <module name="PntMobileAutomation" target="1.5" />
       <module name="SeattleTimes" target="1.8" />
       <module name="Team3MobileAutomation" target="1.8" />

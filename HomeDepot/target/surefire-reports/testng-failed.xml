@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Android test suite on Android Phone]" guice-stage="DEVELOPMENT" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Android test suite on Android Phone]">
   <parameter name="deviceType" value="Emulator"/>
   <parameter name="OS" value="Android"/>
   <parameter name="appType" value="Phone"/>
